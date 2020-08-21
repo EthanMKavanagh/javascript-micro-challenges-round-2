@@ -6,26 +6,26 @@ Create a function that takes in an array of arrays. Add up all of the numbers in
 
 ### Example 1
 
-```
-console.log(yourFunction([ [1, 2], [3, 4, 5] ]));
+```js
+sum2d([ [1, 2], [3, 4, 5] ]);
 ```
 
-should log 
+should return 
 
-```
+```js
 15
 ```
 
 ### Example 2
 
-```
-console.log(yourFunction([ [1, 2], [3, 4, 5], [6] ]));
+```js
+sum2d([ [1, 2], [3, 4, 5], [6] ]);
 ```
 
 should log
 
 
-```
+```js
 21
 ```
 

@@ -7,33 +7,33 @@ Your function should return the total years of experience for all of the employe
 
 ### Example 1
 
-```
-console.log(yourFunction([
+```js
+totalYears([
     { name: "Tony", yearsOfExperience: 10 }, 
     { name: "Carla", yearsOfExperience: 4 }
-]));
+]);
 ```
 
-should log 
+should return 
 
-```
+```js
 14
 ```
 
 ### Example 2
 
-```
-console.log(yourFunction([
+```js
+totalYears([
     { name: "Tony", yearsOfExperience: 10 }, 
     { name: "Carla", yearsOfExperience: 4 },
     { name: "Kris", yearsOfExperience: 14 }
-]));
+]);
 ```
 
-should log
+should return
 
 
-```
+```js
 28
 ```
 

@@ -1,31 +1,28 @@
-# Loops, Arrays, and Concatenation Checkpoint
-Create a function that takes two parameters. The first parameter is an array, the second parameter will be a number.
+# Loops, Arrays, and Nested Function Calls
 
-Your function should return a string that combines all of the values starting at the index of the number passed in through the end of the array.
+Create a function that takes in an array of names. The function should return an array of strings, welcoming each person to Prime.
+
+This function _must_ use the `welcome` function you wrote in the [100-Functions](./100-Functions.md) checkpoint. Copy/paste the `welcome` function you wrote into this file, in order to use it.
 
 ## Examples:
 
 ### Example 1
 
-```
-console.log(yourFunction(["ASDF", "BLAH", "Oh!", "Hi", "There!"], 3));
-```
-
-should log 
-
-```
-Hi There!
-```
-
-### Example 2
-
-```
-console.log(yourFunction(["ASDF", "BLAH", "Oh!", "Hi", "There!"], 2));
+```js
+let people = [
+  "Ashley",
+  "Yosef",
+  "Jay"
+];
+welcomeAll(people);
 ```
 
-should log
+should return 
 
-
-```
-Oh! Hi There!
+```js
+[
+  "Hello Ashley, and welcome to Prime!",
+  "Hello Yosef, and welcome to Prime!",
+  "Hello Jay, and welcome to Prime!",
+]
 ```
