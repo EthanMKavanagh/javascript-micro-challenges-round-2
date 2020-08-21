@@ -1,32 +1,31 @@
 # Array Checkpoint
 
-Create a function that takes in an array. Add up the first and last values in the array.
+Create a function that takes in an array of numbers, and returns the sum of those numbers.
 
 ## Examples:
 
 ### Example 1
 
-```
-console.log(yourFunction([1, 2, 3, 4, 5]));
+```js
+sum([3, 12]);
 ```
 
-should log 
+should return 
 
-```
-6
+```js
+15
 ```
 
 ### Example 2
 
-```
-console.log(yourFunction([6, 7, 8, 9, 10, 11, 12]));
+```js
+sum([3, 10, 100]);
 ```
 
-should log
+should return 
 
-
-```
-18
+```js
+113
 ```
 
 
