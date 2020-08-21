@@ -22,12 +22,13 @@ Here are a handful of JavaScript challenges for your first day!
 - 100-Functions
 - 110-Conditional
 - 120-Arrays
+- 130-LoopsArrays
 
 ## Stretch Mode
 
-- 130-LoopsArraysAndNestedFunctions
-- 140-LoopsArrayOfObjects
-- 150-LoopsAndTwoDimensionalArrays
+- 140-LoopsArraysAndNestedFunctions
+- 150-LoopsArrayOfObjects
+- 160-LoopsAndTwoDimensionalArrays
 
 Go for it! Have fun!
 

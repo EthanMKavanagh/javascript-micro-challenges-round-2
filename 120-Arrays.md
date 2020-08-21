@@ -1,31 +1,41 @@
-# Array Checkpoint
+# Arrays Checkpoint
 
-Create a function that takes in an array of numbers, and returns the sum of those numbers.
+Create a function that takes in an array. Remove the first item in the array, move it to the end, and return the resulting array.
 
 ## Examples:
 
 ### Example 1
 
 ```js
-sum([3, 12]);
+arrayRotator(['a', 'b', 'c', 'd']);
 ```
 
 should return 
 
 ```js
-15
+['b', 'c', 'd', 'a']
 ```
 
 ### Example 2
 
 ```js
-sum([3, 10, 100]);
+arrayRotator([3, 5, 7, 9, 11]);
 ```
 
 should return 
 
 ```js
-113
+[5, 7, 9, 11, 3]
 ```
 
+### Example 2
 
+```js
+arrayRotator(["bananas", "potatoes", "eggs"]);
+```
+
+should return 
+
+```js
+["potatoes", "eggs", "bananas"]
+```
