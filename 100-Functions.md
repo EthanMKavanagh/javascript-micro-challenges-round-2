@@ -29,3 +29,12 @@ should return
 ```js
 "Hello Neil, and welcome to the moon!"
 ```
+
+// Assignment
+//-----------
+function welcome( personName, personLocation ){
+    console.log( 'Hello', personName + ', and welcome to', personLocation + '!' );
+} // end welcome
+
+welcome( 'Jonda', 'Prime' );
+welcome( 'Neil', 'the moon' );
