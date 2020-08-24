@@ -1,46 +1,51 @@
 # Conditional Checkpoint
-Create a function that takes two numbers.
 
-If the first number is bigger than the second number, return `"The first number was bigger!"`.
-If the second number is bigger than the first number, return `"The second number was bigger!"`.
-If the numbers are the same, return `"The numbers are the same!"`.
+Create a function that takes a birth year (number) as an argument. Your function should return the name of the generation someone born in that year would belong to.
+
+| Generation Name | Birth Years |
+| --- | --- |
+| Old Timer | 1963 and earlier |
+| Baby Boomer | 1946 to 1964 |
+| Gen X | 1965 to 1985 |
+| Millennial | 1986 to 1996 |
+| Gen Z | 1997 to now |
 
 ## Examples:
 
 ### Example 1
 
-```
-console.log(yourFunction(3, 2));
+```js
+myGeneration(1973);
 ```
 
-should log 
+should return 
 
-```
-The first number was bigger!
+```js
+"Gen X"
 ```
 
 ### Example 3
 
-```
-console.log(yourFunction(2, 7));
+```js
+myGeneration(1922);
 ```
 
-should log
+should return
 
 
-```
-The second number was bigger!
+```js
+"Old Timer"
 ```
 
 ### Example 2
 
-```
-console.log(yourFunction(7, 7));
+```js
+myGeneration(2006);
 ```
 
-should log
+should return
 
 
-```
-The numbers are the same!
+```js
+"Gen Z"
 ```

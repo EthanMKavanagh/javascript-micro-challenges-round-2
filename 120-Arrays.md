@@ -1,32 +1,41 @@
-# Array Checkpoint
+# Arrays Checkpoint
 
-Create a function that takes in an array. Add up the first and last values in the array.
+Create a function that takes in an array. Remove the first item in the array, move it to the end, and return the resulting array.
 
 ## Examples:
 
 ### Example 1
 
-```
-console.log(yourFunction([1, 2, 3, 4, 5]));
+```js
+arrayRotator(['a', 'b', 'c', 'd']);
 ```
 
-should log 
+should return 
 
-```
-6
+```js
+['b', 'c', 'd', 'a']
 ```
 
 ### Example 2
 
-```
-console.log(yourFunction([6, 7, 8, 9, 10, 11, 12]));
-```
-
-should log
-
-
-```
-18
+```js
+arrayRotator([3, 5, 7, 9, 11]);
 ```
 
+should return 
 
+```js
+[5, 7, 9, 11, 3]
+```
+
+### Example 2
+
+```js
+arrayRotator(["bananas", "potatoes", "eggs"]);
+```
+
+should return 
+
+```js
+["potatoes", "eggs", "bananas"]
+```
