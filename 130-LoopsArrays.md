@@ -31,10 +31,8 @@ should return
 // Assignment
 //-----------
 function sum( arr ){
-    arr.reduce( ( accumulator, currentValue ) => {
-        return accumulator + currentValue;
-    }, 0);
-    return arr;
+    let returnedSum = arr.reduce( ( a, b ) => a + b, 0 );
+    return returnedSum;
 } // end sum
 
 sum([3, 12]);
