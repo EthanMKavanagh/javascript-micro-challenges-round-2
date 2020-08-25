@@ -31,7 +31,10 @@ should return
 // Assignment
 //-----------
 function sum( arr ){
-    arr.reduce( ( accumulator, currentValue ) => accumulator + currentValue );
+    arr.reduce( ( accumulator, currentValue ) => {
+        return accumulator + currentValue;
+    }, 0);
+    return arr;
 } // end sum
 
 sum([3, 12]);
