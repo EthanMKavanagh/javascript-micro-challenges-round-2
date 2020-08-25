@@ -56,13 +56,13 @@ function myGeneration( birthYear ){
     if( birthYear <= 1945 ){
         return 'Old Timer';
     } // end if
-    else if( 1946 <= birthYear <= 1964){
+    else if( birthYear > 1945 && birthYear < 1965){
         return 'Baby Boomer';
     } // end else if
-    else if( 1965 <= birthYear <= 1985 ){
+    else if( birthYear > 1964 && birthYear < 1986 ){
         return 'Gen X';
     } // end else if
-    else if( 1986 <= birthYear <= 1996 ){
+    else if( birthYear > 1985 && birthYear < 1997 ){
         return 'Millennial';
     } // end else if
     else{
