@@ -39,3 +39,16 @@ should return
 ```js
 ["potatoes", "eggs", "bananas"]
 ```
+
+// Assignment
+//-----------
+function arrayRotator( arr ){
+    const rotatedArray = arr.concat();
+    frontItem = rotatedArray.shift();
+    rotatedArray.push( frontItem );
+    return rotatedArray;
+} // end arrayRotator
+
+arrayRotator( [ 'a', 'b', 'c', 'd' ] );
+arrayRotator( [ 3, 5, 7, 9, 11 ] );
+arrayRotator( [ 'bananas', 'potatoes', 'eggs' ] );
