@@ -26,3 +26,29 @@ should return
   "Hello Jay, and welcome to Prime!",
 ]
 ```
+
+// Assignment
+//-----------
+let people = [
+  "Ashley",
+  "Yosef",
+  "Jay"
+];
+
+let location = [
+  "Prime"
+];
+
+function welcome( personName, personLocation ){
+  for( i = 0; i < people.length; i++ ){
+    let personStatement =  'Hello', people[ i ];
+  } // end for
+  for( i = 0; i < location.length; i++ ){
+    let locationStatement = ', and welcome to', location[ i ] + '!';
+  } // end for
+  return personStatement + locationStatement;
+} // end welcome
+
+welcomeAll( people, location );
+
+// I tried, lol. Git push anyways!
