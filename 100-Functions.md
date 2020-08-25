@@ -36,5 +36,5 @@ function welcome( personName, personLocation ){
     return 'Hello', personName + ', and welcome to', personLocation + '!';
 } // end welcome
 
-welcome( 'Jonda', 'Prime' );
-welcome( 'Neil', 'the moon' );
+welcome("Jonda", "Prime");
+welcome("Neil", "the moon");

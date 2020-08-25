@@ -28,4 +28,11 @@ should return
 113
 ```
 
+// Assignment
+//-----------
+function sum( arr ){
+    arr.reduce( ( accumulator, currentValue ) => accumulator + currentValue );
+} // end sum
 
+sum([3, 12]);
+sum([3, 10, 100]);
